@@ -1,0 +1,14 @@
+LIST ALL AVAILABLE SPOUSE QUESTIONS
+{% if top_spouse_requests %}
+	<ul>
+	{% for req in top_spouse_requests %}
+		<li>
+			
+			{{ req.question }}
+			
+		</li></br>
+	{% endfor %}
+	</ul>
+{% else %}
+    <p>No stores are available.</p>
+{% endif %}
