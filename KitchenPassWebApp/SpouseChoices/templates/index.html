@@ -1,14 +1,30 @@
 LIST ALL AVAILABLE SPOUSE QUESTIONS
-{% if top_spouse_requests %}
+{% if SpouseRequests %}
 	<ul>
-	{% for req in top_spouse_requests %}
+	{% for SpouseRequest in SpouseRequests %}
 		<li>
 			
-			{{ req.question }}
-			
+			{{ SpouseRequest.question }}
+			{{ SpouseRequest.votes }}
 		</li></br>
 	{% endfor %}
 	</ul>
 {% else %}
-    <p>No stores are available.</p>
+    <p>No requests are available.</p>
+{% endif %}
+
+
+LIST ALL AVAILABLE SPOUSE RESPONSEs
+{% if SpouseResponses %}
+	<ul>
+	{% for SpouseResponse in SpouseResponses %}
+		<li>
+			
+			{{ SpouseResponse.answer }}
+			{{ SpouseResponse.votes }}
+		</li></br>
+	{% endfor %}
+	</ul>
+{% else %}
+    <p>No REsponses are available.</p>
 {% endif %}
