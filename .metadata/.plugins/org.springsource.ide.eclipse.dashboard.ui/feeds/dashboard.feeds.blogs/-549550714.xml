@@ -5,7 +5,105 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2014-07-08T20:17:00Z</updated>
+  <updated>2014-07-10T19:50:55Z</updated>
+  <entry>
+    <title>First Milestone of Spring Data Release Train Evans Available</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/07/10/first-milestone-of-spring-data-release-train-evans-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Christoph Strobl</name>
+    </author>
+    <id>tag:spring.io,2014-07-10:1680</id>
+    <updated>2014-07-10T19:50:55Z</updated>
+    <content type="html">&lt;p&gt;We are happy to announce the first milestone of the Spring Data Release train &lt;a href="https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-Evans"&gt;Evans&lt;/a&gt;. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spring Data Commons 1.9 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-commons/1.9.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.9.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.9.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/commons/docs/1.9.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data JPA 1.7 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-jpa/1.7.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.7.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.7.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/jpa/docs/1.7.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data MongoDB 1.6 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-mongodb/1.6.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.6.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.6.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/mongodb/docs/1.6.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Neo4j 3.2 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-neo4j/3.2.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/3.2.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/3.2.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/neo4j/docs/3.2.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Solr 1.3 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-solr/1.3.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/1.3.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/1.3.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/solr/docs/1.3.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Couchbase 1.2 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-couchbase/1.2.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/1.2.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/1.2.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/1.2.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Cassandra 1.1 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-cassandra/1.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/1.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/1.1.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/cassandra/docs/1.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Elasticsearch 1.1 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-elasticsearch/1.1.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.1.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.1.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.1.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Gemfire 1.5 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-gemfire/1.5.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/1.5.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/1.5.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/gemfire/docs/1.5.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data Redis 1.4 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-redis/1.4.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/1.4.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/1.4.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/redis/docs/1.4.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Spring Data REST 2.2 M1 - &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/data/spring-data-rest-webmvc/2.2.0.M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.2.0.M1/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.2.0.M1/reference/htmlsingle"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/rest/docs/2.2.0.M1/changelog.txt"&gt;Changelog&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;There's a bunch of new stuff shipping with this release:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Support for Java 8 &lt;a href="https://github.com/spring-projects/spring-data-examples/blob/master/jpa/java8/src/main/java/example/springdata/jpa/java8/CustomerRepository.java#L42"&gt;default methods&lt;/a&gt; on repositories.&lt;/li&gt;
+&lt;li&gt;Support for dynamic SpEL based &lt;a href="https://github.com/spring-projects/spring-data-examples/blob/master/jpa/security/src/main/java/example/springdata/jpa/security/SecureBusinessObjectRepository.java#L44"&gt;query parameter expressions&lt;/a&gt; in JPA.&lt;/li&gt;
+&lt;li&gt;Enhanced support for MongoDB 2.6 features (&lt;a href="https://jira.spring.io/browse/DATAMONGO-850"&gt;text search&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Support for &lt;a href="https://jira.spring.io/browse/DATAREST-230"&gt;ALPS&lt;/a&gt; and &lt;a href="https://jira.spring.io/browse/DATAREST-317"&gt;excerpt projections&lt;/a&gt; in Spring Data REST.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://github.com/spring-projects/spring-data-build/issues/94"&gt;Spring 4&lt;/a&gt; as new baseline.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Be sure to check out the already &lt;a href="https://github.com/spring-projects/spring-data-examples"&gt;updated examples&lt;/a&gt;. The team around the participating modules squashed 125 Tickets including 42 bug fixes. Have a look at &lt;a href="https://jira.spring.io/issues/?filter=14746"&gt;Jira&lt;/a&gt; for a full list and watch out for upcoming blog posts on selected features.&lt;/p&gt;
+
+&lt;p&gt;Get in touch via &lt;a href="https://twitter.com/springdata"&gt;Twitter&lt;/a&gt;, &lt;a href="http://stackoverflow.com/questions/tagged/spring-data"&gt;StackOverflow&lt;/a&gt; or &lt;a href="http://jira.spring.io"&gt;JIRA&lt;/a&gt;. We're looking forward to your feedback!&lt;/p&gt;
+
+&lt;hr&gt;&lt;p&gt;SpringOne 2GX 2014 is getting close.&lt;/p&gt;
+
+&lt;p&gt;Book your place at &lt;a href="http://www.springone2gx.com"&gt;SpringOne in Dallas, TX&lt;/a&gt; for Sept 8-11. It's simply the best opportunity to find out first hand what's hot in Spring Data and have a chat with the people involved.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Batch Releases And A New Repository</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/07/10/spring-batch-releases-and-a-new-repository" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Michael Minella</name>
+    </author>
+    <id>tag:spring.io,2014-07-10:1678</id>
+    <updated>2014-07-10T14:05:00Z</updated>
+    <content type="html">&lt;p&gt;Today we are pleased to announce the release of Spring Batch 3.0.1, Spring Batch Admin 1.3.0.RC1, and introduce the
+    Spring Batch Extensions project.  These releases in addition to the Spring Batch Extensions project address a number
+    of improvements and issues.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-spring-batch-301" class="anchor" href="#spring-batch-301" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Spring Batch 3.0.1&lt;/h2&gt;
+
+&lt;p&gt;This release of Spring Batch consists mainly of bug fixes, however, one new feature was added: &lt;code&gt;ScriptItemProcessor&lt;/code&gt;.
+   This &lt;code&gt;ItemProcessor&lt;/code&gt; implementation provides the ability to use an external or inline script to provide
+   the logic of your processor.  An example of using Groovy inline would look something like this:&lt;/p&gt;
+
+&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Bean&lt;/span&gt;
+&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;ScriptItemProcessor&lt;/span&gt; &lt;span class="nf"&gt;processor&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;ScriptItemProcessor&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Object&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;scriptItemProcessor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;ScriptItemProcessor&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Object&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;();&lt;/span&gt;
+
+    &lt;span class="n"&gt;scriptItemProcessor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;setScriptSource&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"item.toUpperCase();"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="s"&gt;"groovy"&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+    &lt;span class="n"&gt;scriptItemProcessor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;afterPropertiesSet&lt;/span&gt;&lt;span class="o"&gt;();&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;scriptItemProcessor&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This &lt;code&gt;ItemProcessor&lt;/code&gt; allows full support of all JSR-223 scripting options.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-spring-batch-admin-130rc1" class="anchor" href="#spring-batch-admin-130rc1" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Spring Batch Admin 1.3.0.RC1&lt;/h2&gt;
+
+&lt;p&gt;Spring Batch Admin 1.3.0.RC1 addresses &lt;a href="https://jira.spring.io/browse/BATCHADM-188?jql=fixVersion%20%3D%201.3.0%20AND%20project%20%3D%20BATCHADM"&gt;a number of issues&lt;/a&gt; as well as updated it to be used with the Spring Batch 2.2.x version of the job repository and beyond.  In addition to the issues addressed, we also completed a number of dependency updates to bring the project up to date from that perspective.&lt;/p&gt;
+
+&lt;p&gt;To support the users of Spring Batch 2.2.x, this release contains the Spring Batch Integration module and still uses Spring Integration 3.  However, Spring Batch 3.0 saw us move this module to Spring Batch and so this will be the last release of Spring Batch Admin that contains this module.  Going forward, users will be expected to use the version included within Spring Batch.&lt;/p&gt;
+
+&lt;h2&gt;
+&lt;a name="user-content-spring-batch-extensions" class="anchor" href="#spring-batch-extensions" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Spring Batch Extensions&lt;/h2&gt;
+
+&lt;p&gt;Finally, we are happy to announce a new repository for Spring Batch, Spring Batch Extensions.  This project provides a home for community contributed modules akin to Spring Integration Extensions.  With this announcement, we have our first contribution, the spring-batch-elasticsearch module.  This module provides an &lt;code&gt;ItemReader&lt;/code&gt; and an &lt;code&gt;ItemWriter&lt;/code&gt; for interacting with Elasticsearch.  You can find information about this module and other contributions on &lt;a href="https://github.com/spring-projects/spring-batch-extensions"&gt;Github&lt;/a&gt;.  We look forward to future contributions from the community to help expand the available use cases for Spring Batch.&lt;/p&gt;
+
+&lt;p&gt;Please share your feedback on Stack Overflow, social media, and in person at &lt;a href="http://springone2gx.com/register"&gt;SpringOne2GX&lt;/a&gt;!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - July 8th, 2014</title>
     <link rel="alternate" href="https://spring.io/blog/2014/07/08/this-week-in-spring-july-8th-2014" />
@@ -532,42 +630,6 @@
 &lt;p&gt;Learn more about C24:  &lt;a href="http://www.c24.biz"&gt;http://www.c24.biz&lt;/a&gt;&lt;/p&gt;
 
 &lt;iframe width="560" height="315" src="//www.youtube.com/embed/61TDzRQei_8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Meetup Replay: Using Spring Framework 4.0 and Java 8</title>
-    <link rel="alternate" href="https://spring.io/blog/2014/06/23/meetup-replay-using-spring-framework-4-0-and-java-8" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2014-06-24:1653</id>
-    <updated>2014-06-23T19:33:00Z</updated>
-    <content type="html">&lt;p&gt;Speaker:  Adib Saikali &lt;/p&gt;
-
-&lt;p&gt;Spring Framework 4.0 ships with Java 8 support that means being that you can start using all the great features of Java 8 right away. This presentation will show examples of how to use Java 8 with Spring Framework 4 in the repository layer, the services layer and the controller layer. For each example we will show a Java 7 and a Java 8 version so that you can easily see the pros and cons of the Java 8 based solution. No previous experience with Java 8 is required or assumed, we will cover some basic features of Java 8 as we go along. About the speaker: Adib is an expert programmer and has a passion for the interface between business and technology.  He launched his career as a coder with a number of entrepreneurial organizations, ranging from small startups to (the then 750-employee) RIM. Adib has trained and mentored thousands of developers at organizations throughout Canada, USA and Europe. His substantial technical knowledge, extensive project experience and ability to look at technical problems from a variety of perspectives allow him to create innovative solutions to 'real world' problems. &lt;/p&gt;
-
-&lt;p&gt;Learn more about Spring Framework:  &lt;a href="http://projects.spring.io/spring-framework"&gt;http://projects.spring.io/spring-framework&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="//www.youtube.com/embed/5b5h1G_GLaY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Webinar Replay: Spring Integration done Booti-fully</title>
-    <link rel="alternate" href="https://spring.io/blog/2014/06/23/webinar-replay-spring-integration-done-booti-fully" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2014-06-23:1652</id>
-    <updated>2014-06-23T10:33:00Z</updated>
-    <content type="html">&lt;p&gt;Speaker: Glenn Renfro&lt;/p&gt;
-
-&lt;p&gt;With the increase in the number of devices that emit information it has become ever more important to be able to retrieve this data and process accordingly. In response to this need, MQTT has become the defacto lightweight transport for connecting an "Internet of things". With that being said, how do your applications support for eventing, messaging, and scheduling? Utilizing Spring Boot and Spring Integration you will see how to create an application with a scheduler that will retrieve data from a web service, cleanse and emit the data via MQTT. Then you'll see how to create an application, also written using Spring Boot and Spring Integration, that will capture the MQTT events and record the results. From this discussion you can see how to use these tools and take advantage of them for your own big data projects as soon as you return to the office. &lt;/p&gt;
-
-&lt;p&gt;Learn more about Spring Integration at &lt;a href="http://projects.spring.io/spring-integration"&gt;http://projects.spring.io/spring-integration&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;Learn more about Spring Boot at &lt;a href="http://projects.spring.io/spring-boot"&gt;http://projects.spring.io/spring-boot&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width="420" height="315" src="//www.youtube.com/embed/EfgOs92viBM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
   </entry>
 </feed>
 

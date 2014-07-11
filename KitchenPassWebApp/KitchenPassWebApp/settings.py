@@ -37,7 +37,12 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'SpouseChoices',
+    'gcm',
 )
+
+GCM_APIKEY = "AIzaSyAuSmpawGorpIBi6Y1GxtnW2ZZvIrkJi_8"
+# GCM_DEVICE_MODEL = "ProviderMenuApp.models.UserDevice"
+
 
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 
