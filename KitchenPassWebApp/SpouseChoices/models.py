@@ -1,4 +1,5 @@
 from django.db import models
+from gcm.models import AbstractDevice
 
 
 
@@ -18,5 +19,9 @@ class SpouseResponse(models.Model):
     def __str__(self):
         return self.answer
     
+ 
+class UserDevice(AbstractDevice):
+    username = models.CharField(max_length=20, blank=True, default='')
 
-    
+    def __str__(self):
+        return self.dev_id  

@@ -28,3 +28,18 @@ LIST ALL AVAILABLE SPOUSE RESPONSEs
 {% else %}
     <p>No REsponses are available.</p>
 {% endif %}
+
+LIST ALL DEVICEs
+{% if Devices %}
+	<ul>
+	{% for Device in Devices %}
+		<li>
+			{{ Device.name }} : {{ Device.dev_id }}
+			
+		</li>
+		</br>
+	{% endfor %}
+	</ul>
+{% else %}
+    <p>No devices are available.</p>
+{% endif %}

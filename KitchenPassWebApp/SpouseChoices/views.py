@@ -1,7 +1,7 @@
-from SpouseChoices.models import SpouseRequest, SpouseResponse
+from SpouseChoices.models import SpouseRequest, SpouseResponse, UserDevice
 from django.http.response import HttpResponse
 from django.views.generic.list import ListView
-
+from gcm.models import Device
 
 # Create your views here.
 # def index(request):
@@ -21,6 +21,7 @@ class IndexView(ListView):
     def get_context_data(self, **kwargs):
         context = super(IndexView, self).get_context_data(**kwargs)
         context['SpouseResponses'] = SpouseResponse.objects.order_by('-votes')
+        context['Devices'] = Device.objects.order_by('dev_id')
         return context
 
 def detail(request, SpouseRequest_id):
