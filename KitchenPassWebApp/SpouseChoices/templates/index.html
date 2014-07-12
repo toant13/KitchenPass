@@ -1,12 +1,23 @@
+{% load gcm_messenging %}
+
 LIST ALL AVAILABLE SPOUSE QUESTIONS
 {% if SpouseRequests %}
 	<ul>
 	{% for SpouseRequest in SpouseRequests %}
-		<li>
-			
+		<li>	
 			{{ SpouseRequest.question }}
 			{{ SpouseRequest.votes }}
 		</li></br>
+		
+		
+		{% if Devices %}
+			{% for Device in Devices %}
+					{{ Device.name }} : {{ Device.dev_id }}
+					{{ Device | send_phone:SpouseRequest.question}}
+			{% endfor %}
+		{% else %}
+		    <p>No devices are available.</p>
+		{% endif %}
 	{% endfor %}
 	</ul>
 {% else %}
@@ -29,13 +40,14 @@ LIST ALL AVAILABLE SPOUSE RESPONSEs
     <p>No REsponses are available.</p>
 {% endif %}
 
+
+ 
 LIST ALL DEVICEs
 {% if Devices %}
 	<ul>
 	{% for Device in Devices %}
 		<li>
 			{{ Device.name }} : {{ Device.dev_id }}
-			
 		</li>
 		</br>
 	{% endfor %}
