@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'gcm',
 )
 
-GCM_APIKEY = "AIzaSyAuSmpawGorpIBi6Y1GxtnW2ZZvIrkJi_8"
+GCM_APIKEY = 'AIzaSyCWQoKeHUWOyX-tKGFe-ZA_aUZ2c67-Wa0'
 # GCM_DEVICE_MODEL = "ProviderMenuApp.models.UserDevice"
 
 

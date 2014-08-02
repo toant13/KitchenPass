@@ -8,8 +8,11 @@ import com.google.android.gcm.server.Sender;
 
 public class GCMServerTester {
 	  public static void main(String[] args) throws Exception {
-		String apiKey = "AIzaSyAuSmpawGorpIBi6Y1GxtnW2ZZvIrkJi_8";
-		String SENDER_ID = "381088048468";
+		  
+		System.out.println("starting ");  
+		  
+		String apiKey = "AIzaSyCWQoKeHUWOyX-tKGFe-ZA_aUZ2c67-Wa0";
+		String SENDER_ID = "affable-seat-262";
 	    sendMessage(apiKey);
 	  }
 

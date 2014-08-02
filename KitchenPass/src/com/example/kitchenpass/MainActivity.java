@@ -55,7 +55,8 @@ public class MainActivity extends ActionBarActivity {
 				@Override
 				public void onClick(View arg0) {			
 					regid = getRegistrationId(context);
-					Log.d(TAG, "Already registered: " + regid);
+					
+					Log.d(TAG, "Already registered: {" + regid + "]");
 					
 					//TODO: disable button if known already
 					Toast.makeText(getApplicationContext(),"Device is already registered", Toast.LENGTH_LONG).show();
