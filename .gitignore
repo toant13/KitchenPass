@@ -8,4 +8,4 @@ target/
 *.pyc
 /target
 */bin
-*.metadata
+.metadata
