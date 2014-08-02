@@ -4,3 +4,10 @@ SUMMARY: Application that sends a notification from one significant other to ano
 
 Phone app with a Django Restful Framework Backend connected to Android client that gets push notification with Google Cloud Messaging Services (GCM).
 
+
+
+++++++++TODO+++++
+- Make device registration dynamic
+- fix client code for registration handling
+- Possibly use db rather than sharedpreferences to persist the reg_id
+- Update model in web app so admin url can update/add reg id and device number
