@@ -9,3 +9,7 @@ target/
 /target
 */bin
 .metadata
+*/gen
+*.class
+*.apk
+*.ap_
