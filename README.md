@@ -11,3 +11,5 @@ Phone app with a Django Restful Framework Backend connected to Android client th
 - fix client code for registration handling
 - Possibly use db rather than sharedpreferences to persist the reg_id
 - Update model in web app so admin url can update/add reg id and device number
+- Add device handling (ie request sends request to device 2, response go to device 1)
+
