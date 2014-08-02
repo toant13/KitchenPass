@@ -6,3 +6,6 @@ RemoteSystemsTempFiles/
 target/
 *.sqlite3
 *.pyc
+/target
+*/bin
+*.metadata

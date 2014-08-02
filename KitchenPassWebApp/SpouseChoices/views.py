@@ -1,8 +1,8 @@
-from SpouseChoices.models import SpouseRequest, SpouseResponse, UserDevice
+from SpouseChoices.models import SpouseRequest, SpouseResponse
 from django.http.response import HttpResponse
+from django.shortcuts import render_to_response
 from django.views.generic.list import ListView
-from gcm.models import Device
-
+from gcm.models import Device, get_device_model
 # Create your views here.
 # def index(request):
 #     spouseReq = SpouseRequest.objects.order_by('question')[:5]
@@ -26,3 +26,11 @@ class IndexView(ListView):
 
 def detail(request, SpouseRequest_id):
     return HttpResponse("DETAIL PAGE: %s" % SpouseRequest_id)
+
+
+def sendPost(request):
+    phone = get_device_model().objects.get(name="device1")
+    phone.send_message("sendpost", collapse_key='something')  
+    return HttpResponse("Message sent to spouse")
+        
+        
