@@ -7,6 +7,7 @@ Phone app with a Django Restful Framework Backend connected to Android client th
 
 
 ++++++++Features TODO+++++++++
+- add in mechanism to handle collapse_key
 - Make device registration dynamic
 - fix client code for registration handling
 - Possibly use db rather than sharedpreferences to persist the reg_id

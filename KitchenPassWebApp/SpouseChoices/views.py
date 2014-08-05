@@ -30,7 +30,7 @@ def detail(request, SpouseRequest_id):
 
 def sendPost(request, SpouseRequest_id, Device_id):
     sReq = SpouseRequest.objects.get(id=SpouseRequest_id)
-    phone = get_device_model().objects.get(name='device1')
+    phone = get_device_model().objects.get(id=Device_id)
     phone.send_message(sReq.question, collapse_key='somethingfromview')  
     return HttpResponse('%s device. Spouse %s has send following message: %s' % (Device_id, SpouseRequest_id, sReq))
         
