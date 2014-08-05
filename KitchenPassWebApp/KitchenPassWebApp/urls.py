@@ -12,6 +12,6 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.IndexView.as_view(), name='Spouse_list'),
     url(r'^(?P<SpouseRequest_id>\d+)/$', views.detail, name='detail'),
-    url(r'^(?P<SpouseRequest_id>\d+)/message/$', views.sendPost, name='sendPost'),
+    url(r'^message/(?P<SpouseRequest_id>\d+)/device/(?P<Device_id>\d+)/$', views.sendPost, name='sendPost'),
     url(r'', include('gcm.urls')),
 )

@@ -16,7 +16,7 @@ LIST ALL AVAILABLE SPOUSE QUESTIONS
 					{{ Device.name }} : {{ Device.dev_id }}
 					<!--  <form action="message/" method="post">-->
 					
-					<form action="{% url 'sendPost' SpouseRequest.id %}" method="post">
+					<form action="{% url 'sendPost' SpouseRequest.id Device.dev_id %}" method="post">
 						{% csrf_token %}
 						<input type="submit" class="btn" value="Click" name="mybtn">
 					</form>	

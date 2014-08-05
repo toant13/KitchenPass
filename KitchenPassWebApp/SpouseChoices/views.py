@@ -28,10 +28,10 @@ def detail(request, SpouseRequest_id):
     return HttpResponse("DETAIL PAGE: %s" % SpouseRequest_id)
 
 
-def sendPost(request, SpouseRequest_id):
+def sendPost(request, SpouseRequest_id, Device_id):
     sReq = SpouseRequest.objects.get(id=SpouseRequest_id)
     phone = get_device_model().objects.get(name='device1')
     phone.send_message(sReq.question, collapse_key='somethingfromview')  
-    return HttpResponse('Spouse %s has send following message: %s' % (SpouseRequest_id, sReq))
+    return HttpResponse('%s device. Spouse %s has send following message: %s' % (Device_id, SpouseRequest_id, sReq))
         
         
